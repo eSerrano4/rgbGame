@@ -3,12 +3,17 @@ body {
     color: cornsilk;
 }
 
+.top {
+    text-align: center;
+}
+
 .square {
     width: 30%;
     background-color: purple;
     padding-bottom: 30%;
     float: left;
     margin: 1.66%;
+    border-radius: 25px;
 }
 
 .container {
@@ -16,13 +21,14 @@ body {
     margin: 0 auto;
 }
 
-span {
-    color: dodgerblue;
-}
 
 #stripe {
     text-align: center;
     background-color: white;
     height: 30px;
     color: black;
+}
+
+.selected {
+    background-color: dodgerblue;
 }
