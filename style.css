@@ -1,10 +1,12 @@
 body {
     background-color: black;
     color: cornsilk;
+    margin: 0;
 }
 
 .top {
     text-align: center;
+    margin: 0;
 }
 
 .square {
@@ -21,6 +23,14 @@ body {
     margin: 0 auto;
 }
 
+h1 {
+    margin: 0;
+    line-height: 1.1;
+    text-transform: capitalize;
+    font-size: 45px;
+    padding: 10px 0;
+    background: dodgerblue;
+}
 
 #stripe {
     text-align: center;
@@ -29,6 +39,17 @@ body {
     color: black;
 }
 
-.selected {
-    background-color: dodgerblue;
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
+.selected {}
+
+button {
+    border: none;
+    background-color: none;
+    text-transform: uppercase;
+    height: 100%;
+    color: dodgerblue;
 }
